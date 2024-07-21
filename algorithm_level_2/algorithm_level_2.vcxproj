@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10.cpp" />
+    <ClCompile Include="11.cpp" />
     <ClCompile Include="1_print_multiplication_table.cpp" />
     <ClCompile Include="2_print_all_prime_numbers_from_nto1.cpp" />
     <ClCompile Include="3_perfect_number.cpp" />
@@ -136,7 +138,7 @@
     <ClCompile Include="6_sum_of_digit.cpp" />
     <ClCompile Include="7reverse_number.cpp" />
     <ClCompile Include="8digit_frequency_in_number.cpp" />
-    <ClCompile Include="9.cpp" />
+    <ClCompile Include="9_find_all_digit_frequency_in_number.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

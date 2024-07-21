@@ -13,26 +13,25 @@
 //void PrintDigit(int Digit) {
 //	cout << "Digit ===>>>> \t" << Digit << endl;
 //}
-//void  CountDigitFrequencyInNumber(int Num, int DigitToCheck) {
+//int  ReverseDigitsOfNumber(int Num) {
 //	int Remainder = 0;
-//	int NumOfFrequency = 0;
+//	int ReverseNum = 0;
 //	while (Num > 0) {
 //		Remainder = Num % 10;
 //		Num = Num / 10;
-//		if (DigitToCheck == Remainder)NumOfFrequency++;
+//		ReverseNum *= 10;
+//		ReverseNum += Remainder;
 //	}
-//	if (NumOfFrequency > 1) {
-//		cout << "============================================" << endl;
-//		cout << "Num Of Frequency " << DigitToCheck << ":  \t" << NumOfFrequency << endl;
-//	}
-//
+//	return ReverseNum;
 //}
-//void FindAllDigitFrequencyInNumber(int Num) {
-//	for (short int i = 0; i < 10; i++)
-//	{
-//		CountDigitFrequencyInNumber(Num, i);
-//	}
 //
+//void CheckDigitsOfNumber(int Num) {
+//	int Remainder = 0;
+//	while (Num > 0) {
+//		Remainder = Num % 10;
+//		Num = Num / 10;
+//		PrintDigit(Remainder);
+//	}
 //}
 //
 //
@@ -40,10 +39,10 @@
 //	cout << "########################################################\n";
 //	cout << "#####################-by-ahmed-mady-####################\n";
 //	cout << "########################################################\n";
-//	int Num, DigitToCheck;
+//	int Num;
 //	Num = ReadPositiveNumber("ENTER POSITIVE NUMBER: ");
-//	cout << Num << endl;
-//	FindAllDigitFrequencyInNumber(Num);
+//	CheckDigitsOfNumber(ReverseDigitsOfNumber(Num));
+//
 //	cout << "########################################################\n";
 //	cout << "########################################################\n";
 //	return 0;

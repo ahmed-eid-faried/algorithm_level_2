@@ -42,7 +42,13 @@
     <ClCompile Include="8digit_frequency_in_number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="9.cpp">
+    <ClCompile Include="9_find_all_digit_frequency_in_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
