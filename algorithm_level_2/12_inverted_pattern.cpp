@@ -19,7 +19,12 @@ void PrintRow(int Num) {
 void InvertedPattern(int Num) {
 	for (int i = Num; i > 0; i--)
 	{
-		PrintRow(i);
+		//PrintRow(i);
+		for (int j = 0; j < i; j++)
+		{
+			cout << i;
+		}
+		cout << endl;
 	}
 }
 int main() {
