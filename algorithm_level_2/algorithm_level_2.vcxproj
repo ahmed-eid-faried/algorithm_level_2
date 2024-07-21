@@ -135,6 +135,7 @@
     <ClCompile Include="5_check_digits_of_number_soln2.cpp" />
     <ClCompile Include="6_sum_of_digit.cpp" />
     <ClCompile Include="7reverse_number.cpp" />
+    <ClCompile Include="8digit_frequency_in_number.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

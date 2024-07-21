@@ -13,7 +13,7 @@
 //void PrintDigit(int Digit) {
 //	cout << "Digit ===>>>> \t" << Digit << endl;
 //}
-//void CheckDigitsOfNumber(int Num) {
+//void SumDigitsOfNumber(int Num) {
 //	int Remainder = 0;
 //	int SumRemainder = 0;
 //	while (Num > 0) {
@@ -35,7 +35,7 @@
 //	cout << "########################################################\n";
 //	int Num;
 //	Num = ReadPositiveNumber("ENTER POSITIVE NUMBER: ");
-//	CheckDigitsOfNumber(Num);
+//	SumDigitsOfNumber(Num);
 //	cout << "########################################################\n";
 //	cout << "########################################################\n";
 //	return 0;
