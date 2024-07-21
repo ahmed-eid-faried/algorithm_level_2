@@ -138,7 +138,8 @@
     <ClCompile Include="18_encryption_decryption.cpp" />
     <ClCompile Include="19_random_number.cpp" />
     <ClCompile Include="1_print_multiplication_table.cpp" />
-    <ClCompile Include="20.cpp" />
+    <ClCompile Include="20get_random_selection.cpp" />
+    <ClCompile Include="21_generate_keys.cpp" />
     <ClCompile Include="2_print_all_prime_numbers_from_nto1.cpp" />
     <ClCompile Include="3_perfect_number.cpp" />
     <ClCompile Include="4_print_all_prefect_numbers_from1to_n.cpp" />

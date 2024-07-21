@@ -75,7 +75,10 @@
     <ClCompile Include="19_random_number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="20.cpp">
+    <ClCompile Include="20get_random_selection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="21_generate_keys.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
