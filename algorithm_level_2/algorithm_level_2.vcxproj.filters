@@ -24,5 +24,11 @@
     <ClCompile Include="3_perfect_number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="4_print_all_prefect_numbers_from1to_n.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

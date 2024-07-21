@@ -10,14 +10,13 @@
 //	return Num;
 //}
 //void PrintPrefectNumber(bool PrefectState, int Num) {
-//	cout << "---------------------------\n";
-//	cout << "PrefectState ===>>>> \t" << PrefectState;
+//
 //	if (PrefectState) {
+//		cout << "---------------------------\n";
+//		cout << "PrefectState ===>>>> \t" << PrefectState;
 //		cout << " \t" << Num << " Is Perfect Number.\n";
 //	}
-//	else {
-//		cout << " \t" << Num << " Is NOT Perfect Number.\n";
-//	}
+//	//else {cout << " \t" << Num << " Is NOT Perfect Number.\n";	}
 //}
 //
 //
@@ -33,7 +32,11 @@
 //}
 //
 //
-//
+//void PrintAllPrefectNumbersFrom1toN(int Num) {
+//	for (int i = 1; i <= Num; i++) {
+//		PrintPrefectNumber(CheckPrefectNumber(i), i);
+//	}
+//}
 //
 //
 //int main() {
@@ -42,7 +45,7 @@
 //	cout << "########################################################\n";
 //	int Num;
 //	Num = ReadPositiveNumber("ENTER POSITIVE NUMBER: ");
-//	PrintPrefectNumber(CheckPrefectNumber(Num), Num);
+//	PrintAllPrefectNumbersFrom1toN(Num);
 //	cout << "########################################################\n";
 //	cout << "########################################################\n";
 //	return 0;
