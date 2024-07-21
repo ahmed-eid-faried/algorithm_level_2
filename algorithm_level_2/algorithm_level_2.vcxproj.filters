@@ -60,5 +60,8 @@
     <ClCompile Include="14_inverted_letter_pattern.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="15_normal_letter_pattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
