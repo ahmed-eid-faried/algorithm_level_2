@@ -19,14 +19,27 @@
 //void PrintArray(int Array[100], short Num) {
 //	cout << "Original Array: \t";
 //	if (Num > 100)Num = 100;
+//	int MaxNum = 0;
 //	for (int i = 0; i < Num; i++)
 //	{
 //		cout << Array[i] << " ";
+//		//if (MaxNum < Array[i])MaxNum = Array[i];
 //
 //	}
 //	cout << endl;
+//	//cout << "MaxNum: " << MaxNum << endl;
 //}
 //
+//void MaxNumInArray(int Array[100], short Num) {
+//	if (Num > 100)Num = 100;
+//	int MaxNum = 0;
+//	for (int i = 0; i < Num; i++)
+//	{
+//		if (MaxNum < Array[i])MaxNum = Array[i];
+//
+//	}
+//	cout << "MaxNum: " << MaxNum << endl;
+//}
 //void FillArrayByRandomNum(int Array[100], short& Num) {
 //	Num = ReadPositiveNumber("ENTER LENGTH OF ARRAY: ");
 //	if (Num > 100)Num = 100;
@@ -47,6 +60,7 @@
 //	FillArrayByRandomNum(Array, ArrLength);
 //	cout << "============================================" << endl;
 //	PrintArray(Array, ArrLength);
+//	MaxNumInArray(Array, ArrLength);
 //	cout << "########################################################\n";
 //	cout << "########################################################\n";
 //	return 0;
