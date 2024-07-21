@@ -15,11 +15,16 @@
 //}
 //void CheckDigitsOfNumber(int Num) {
 //	int Remainder = 0;
+//	int SumRemainder = 0;
 //	while (Num > 0) {
 //		Remainder = Num % 10;
 //		Num = Num / 10;
 //		PrintDigit(Remainder);
+//		SumRemainder += Remainder;
 //	}
+//	cout << "============================================" << endl;
+//	cout << "Sum Of Digit:  \t" << SumRemainder << endl;
+//
 //}
 //
 //

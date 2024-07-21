@@ -33,5 +33,11 @@
     <ClCompile Include="5_check_digits_of_number_soln2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="6_sum_of_digit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="7reverse_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
