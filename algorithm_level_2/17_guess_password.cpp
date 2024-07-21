@@ -7,7 +7,7 @@ string  ReadString(string Message) {
 	cin >> Text;
 	return  Text;
 }
-string GuessPassword(string CorrectPassword) {
+bool GuessPassword(string CorrectPassword) {
 	string word = "";
 	int Trials = 0;
 	for (int i = 65; i <= 90; i++)
@@ -27,7 +27,7 @@ string GuessPassword(string CorrectPassword) {
 					cout << "-----------------------------------------------" << endl;
 					cout << "PASSWORD IS " << word << endl;
 					cout << "FOUND AFTER  " << Trials << " Trial(s)" << endl;
-					return word;
+					return true;
 				}
 				word = "";
 			}
