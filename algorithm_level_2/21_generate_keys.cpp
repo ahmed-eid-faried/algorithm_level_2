@@ -42,7 +42,7 @@ string GenerateKey(int Num) {
 void GenerateNumberOfKeys(int Num) {
 	for (int i = 0; i < Num; i++)
 	{
-		cout << GenerateKey(16) << endl;
+		cout << "Key [" << i+1 << "]: \t" << GenerateKey(16) << endl;
 	}
 }
 int main() {
