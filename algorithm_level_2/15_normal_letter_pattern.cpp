@@ -10,15 +10,18 @@ int  ReadPositiveNumber(string Message) {
 	return  Num;
 }
 
-void NormalLetterPattern(int Num) {
-	for (int i = 65; i <  Num + 65; i++)
+void NormalPattern(int Num) {
+	for (int i = 0; i <= Num; i++)
 	{
-		for (int j = 65; j <= i; j++)
+		for (int j = 0; j <= i; j++)
 		{
-			cout << char(i);
+			cout << char(i + 65);
 		}
 		cout << endl;
 	}
+
+
+
 }
 
 int main() {
@@ -27,7 +30,7 @@ int main() {
 	cout << "########################################################\n";
 	int Num;
 	Num = ReadPositiveNumber("ENTER POSITIVE NUMBER: ");
-	NormalLetterPattern(Num);
+	NormalPattern(Num);
 	cout << "########################################################\n";
 	cout << "########################################################\n";
 	return 0;
