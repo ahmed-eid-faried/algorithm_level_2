@@ -131,7 +131,8 @@
     <ClCompile Include="2_print_all_prime_numbers_from_nto1.cpp" />
     <ClCompile Include="3_perfect_number.cpp" />
     <ClCompile Include="4_print_all_prefect_numbers_from1to_n.cpp" />
-    <ClCompile Include="5.cpp" />
+    <ClCompile Include="5_check_digits_of_number_soln1.cpp" />
+    <ClCompile Include="5_check_digits_of_number_soln2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
