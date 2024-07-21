@@ -21,5 +21,8 @@
     <ClCompile Include="2_print_all_prime_numbers_from_nto1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3_perfect_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
