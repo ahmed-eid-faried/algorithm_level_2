@@ -66,5 +66,8 @@
     <ClCompile Include="16_aaa_to_zzz.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="17_guess_password.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
