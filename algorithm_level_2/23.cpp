@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 using namespace std;
+enum enDigit { SmallLetter = 1, CapitalLetter = 2, Digit = 3, SpecialCharacter = 4, };
+
 int  ReadPositiveNumber(string Message) {
 	int Num;
 	do {
@@ -10,27 +12,10 @@ int  ReadPositiveNumber(string Message) {
 	return  Num;
 }
 
-void PrintDigit(int Digit) {
-	cout << "Digit ===>>>> \t" << Digit << endl;
+int RandomNumber(int From, int To) {
+	return (rand() % (To - From)) + From;
 }
-int  CheckRepeatedNumInArray(int Array[100], int DigitToCheck) {
-	int NumOfFrequency = 0;
-	for (int i = 0; i < 5; i++) {
-		if (DigitToCheck == Array[i])NumOfFrequency++;
-	}
-	return NumOfFrequency;
-}
-void ReadArray(int Array[100], short& Num) {
-	string Title = "";
-	Num = ReadPositiveNumber("ENTER LENGTH OF ARRAY: ");
-	cout << "Element Array Elements: \n";
-	if (Num > 100)Num = 100;
-	for (int i = 0; i < Num; i++)
-	{
-		Title = "Element [" + to_string(i + 1) + "]: ";
-		Array[i] = ReadPositiveNumber(Title);
-	}
-}
+
 void PrintArray(int Array[100], short Num) {
 	cout << "Original Array: \t";
 	if (Num > 100)Num = 100;
@@ -41,6 +26,17 @@ void PrintArray(int Array[100], short Num) {
 	}
 	cout << endl;
 }
+
+void FillArrayByRandomNum(int Array[100], short& Num) {
+	Num = ReadPositiveNumber("ENTER LENGTH OF ARRAY: ");
+	if (Num > 100)Num = 100;
+	for (short i = 0; i < Num; i++)
+	{
+		Array[i] = RandomNumber(0, 100);
+	}
+}
+
+
 int main() {
 	cout << "########################################################\n";
 	cout << "#####################-by-ahmed-mady-####################\n";
@@ -48,12 +44,9 @@ int main() {
 	srand((unsigned)time(NULL));
 	int Array[100];
 	short ArrLength;
-	ReadArray(Array, ArrLength);
-	int DigitToCheck = ReadPositiveNumber("ENTER Num to check: ");
-	int NumOfFrequency = CheckRepeatedNumInArray(Array, DigitToCheck);
+	FillArrayByRandomNum(Array, ArrLength);
 	cout << "============================================" << endl;
 	PrintArray(Array, ArrLength);
-	cout << "Num \t" << DigitToCheck << " is repeated \t" << NumOfFrequency << " times" << endl;
 	cout << "########################################################\n";
 	cout << "########################################################\n";
 	return 0;

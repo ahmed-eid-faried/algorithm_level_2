@@ -81,7 +81,10 @@
     <ClCompile Include="21_generate_keys.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="22.cpp">
+    <ClCompile Include="22_array_read_print_check_frq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="23.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
