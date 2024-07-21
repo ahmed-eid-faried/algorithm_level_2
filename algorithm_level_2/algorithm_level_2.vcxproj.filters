@@ -42,5 +42,8 @@
     <ClCompile Include="8digit_frequency_in_number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
