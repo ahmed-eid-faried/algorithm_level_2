@@ -105,5 +105,8 @@
     <ClCompile Include="29_copy_prime_in_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="30_sum_num_in_two_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
