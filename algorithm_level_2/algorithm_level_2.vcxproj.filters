@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\NewFilter1">
-      <UniqueIdentifier>{a8f05aaf-d7b7-4316-a8c3-0581e6b6c3ac}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_print_multiplication_table.cpp">
@@ -48,10 +45,10 @@
     <ClCompile Include="9_find_all_digit_frequency_in_number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="10.cpp">
+    <ClCompile Include="10check_digits_of_number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="11.cpp">
+    <ClCompile Include="11is_palindrome_number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="12_inverted_pattern.cpp">
@@ -103,6 +100,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="28_copy_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="29_copy_prime_in_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

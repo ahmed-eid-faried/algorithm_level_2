@@ -127,8 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="10.cpp" />
-    <ClCompile Include="11.cpp" />
+    <ClCompile Include="10check_digits_of_number.cpp" />
+    <ClCompile Include="11is_palindrome_number.cpp" />
     <ClCompile Include="12_inverted_pattern.cpp" />
     <ClCompile Include="13_normal_pattern.cpp" />
     <ClCompile Include="14_inverted_letter_pattern.cpp" />
@@ -147,6 +147,7 @@
     <ClCompile Include="26sum_array.cpp" />
     <ClCompile Include="27avarage_array.cpp" />
     <ClCompile Include="28_copy_array.cpp" />
+    <ClCompile Include="29_copy_prime_in_array.cpp" />
     <ClCompile Include="2_print_all_prime_numbers_from_nto1.cpp" />
     <ClCompile Include="3_perfect_number.cpp" />
     <ClCompile Include="4_print_all_prefect_numbers_from1to_n.cpp" />
