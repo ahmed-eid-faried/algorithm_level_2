@@ -144,6 +144,7 @@
     <ClCompile Include="23_fill_array_by_random_num.cpp" />
     <ClCompile Include="24max_num_in_array.cpp" />
     <ClCompile Include="25.cpp" />
+    <ClCompile Include="26.cpp" />
     <ClCompile Include="2_print_all_prime_numbers_from_nto1.cpp" />
     <ClCompile Include="3_perfect_number.cpp" />
     <ClCompile Include="4_print_all_prefect_numbers_from1to_n.cpp" />
