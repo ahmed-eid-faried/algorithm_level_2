@@ -87,7 +87,10 @@
     <ClCompile Include="23_fill_array_by_random_num.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="24.cpp">
+    <ClCompile Include="24max_num_in_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="25.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

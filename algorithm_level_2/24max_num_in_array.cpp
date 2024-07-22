@@ -19,7 +19,7 @@
 //void PrintArray(int Array[100], short Num) {
 //	cout << "Original Array: \t";
 //	if (Num > 100)Num = 100;
-//	int MaxNum = 0;
+//	int MaxNum = Array[0];
 //	for (int i = 0; i < Num; i++)
 //	{
 //		cout << Array[i] << " ";
@@ -32,7 +32,7 @@
 //
 //void MaxNumInArray(int Array[100], short Num) {
 //	if (Num > 100)Num = 100;
-//	int MaxNum = 0;
+//	int MaxNum = Array[0];
 //	for (int i = 0; i < Num; i++)
 //	{
 //		if (MaxNum < Array[i])MaxNum = Array[i];
