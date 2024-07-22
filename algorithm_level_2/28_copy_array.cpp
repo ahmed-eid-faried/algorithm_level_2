@@ -16,8 +16,8 @@ int RandomNumber(int From, int To) {
 	return (rand() % (To - From)) + From;
 }
 
-void PrintArray(int Array[100], short Num) {
-	cout << "Original Array: \t";
+void PrintArray(int Array[100], short Num, string Message = "Original Array") {
+	cout << Message << ": \t";
 	if (Num > 100)Num = 100;
 	for (int i = 0; i < Num; i++)
 	{
@@ -26,16 +26,6 @@ void PrintArray(int Array[100], short Num) {
 	cout << endl;
 }
 
-int SumArray(int Array[100], short Num) {
-	if (Num > 100)Num = 100;
-	int SumNum = 0;
-	for (int i = 0; i < Num; i++)
-	{
-		SumNum += Array[i];
-
-	}
-	return SumNum;
-}
 void FillArrayByRandomNum(int Array[100], short& Num) {
 	Num = ReadPositiveNumber("ENTER LENGTH OF ARRAY: ");
 	if (Num > 100)Num = 100;
@@ -44,22 +34,30 @@ void FillArrayByRandomNum(int Array[100], short& Num) {
 		Array[i] = RandomNumber(0, 100);
 	}
 }
-double AvarageArray(int Array[100], short ArrLength) {
-	return 	SumArray(Array, ArrLength) / ArrLength;
-}
 
+void CopyArrayFun(int Array[100], short ArrLength,
+	int CopyArray[100]) {
+	if (ArrLength > 100)ArrLength = 100;
+	for (short i = 0; i < ArrLength; i++)
+	{
+		CopyArray[i] = Array[i];
+	}
+}
 int main() {
 	cout << "########################################################\n";
 	cout << "#####################-by-ahmed-mady-####################\n";
 	cout << "########################################################\n";
 	srand((unsigned)time(NULL));
 	int Array[100];
+	int CopyArray[100];
 	short ArrLength;
 	FillArrayByRandomNum(Array, ArrLength);
 	cout << "============================================" << endl;
-	PrintArray(Array, ArrLength);
-	cout << "SumNum: " << AvarageArray(Array, ArrLength) << endl;
-
+	CopyArrayFun(Array, ArrLength, CopyArray);
+	PrintArray(Array, ArrLength, "Original Array");
+	cout << "============================================" << endl;
+	PrintArray(CopyArray, ArrLength, "Copy Array");
+	//cout << "AvarageArray: " << AvarageArray(Array, ArrLength) << endl;
 	cout << "########################################################\n";
 	cout << "########################################################\n";
 	return 0;
