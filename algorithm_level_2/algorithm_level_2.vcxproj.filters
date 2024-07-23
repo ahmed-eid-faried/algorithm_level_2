@@ -153,5 +153,8 @@
     <ClCompile Include="45count_negative_numbers_in_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="46_abs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
