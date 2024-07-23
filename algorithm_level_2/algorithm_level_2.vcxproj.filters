@@ -108,7 +108,10 @@
     <ClCompile Include="30_sum_num_in_two_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="31_.cpp">
+    <ClCompile Include="31_shuffle_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="32_28_copy_array_in_reverse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

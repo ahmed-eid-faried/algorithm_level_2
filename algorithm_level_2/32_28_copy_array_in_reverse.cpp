@@ -13,7 +13,7 @@ int  ReadPositiveNumber(string Message) {
 }
 
 int RandomNumber(int From, int To) {
-	return (rand() % (To - From + 1)) + From;
+	return (rand() % (To - From)) + From;
 }
 
 void PrintArray(int Array[100], short Num, string Message = "Original Array") {
@@ -34,32 +34,30 @@ void FillArrayByRandomNum(int Array[100], short& Num) {
 		Array[i] = RandomNumber(0, 100);
 	}
 }
-void Swap(int& Num1, int& Num2) {
-	int temp = Num1;
-	Num1 = Num2;
-	Num2 = temp;
-}
-void ShuffleArray(int Array[100], short ArrLength) {
-	if (ArrLength > 100)ArrLength = 100;
- 	for (short i = 0; i < ArrLength; i++)
-	{
-		Swap(Array[RandomNumber(1, ArrLength) - 1], Array[RandomNumber(1, ArrLength) - 1]);
-	}
-} 
 
+void CopyArrayInReverseOrderFun(int Array[100], short ArrLength,
+	int CopyArrayInReverseOrder[100]) {
+	if (ArrLength > 100)ArrLength = 100;
+	for (short i = 0; i < ArrLength; i++)
+	{
+		CopyArrayInReverseOrder[ArrLength - 1 - i] = Array[i];
+	}
+}
 int main() {
 	cout << "########################################################\n";
 	cout << "#####################-by-ahmed-mady-####################\n";
 	cout << "########################################################\n";
 	srand((unsigned)time(NULL));
 	int Array[100];
+	int CopyArrayInReverseOrder[100];
 	short ArrLength;
 	FillArrayByRandomNum(Array, ArrLength);
 	cout << "============================================" << endl;
-	PrintArray(Array, ArrLength, "Array before shuffle");
+	CopyArrayInReverseOrderFun(Array, ArrLength, CopyArrayInReverseOrder);
+	PrintArray(Array, ArrLength, "Original Array");
 	cout << "============================================" << endl;
-	ShuffleArray(Array, ArrLength);
-	PrintArray(Array, ArrLength, "Array after shuffle");
+	PrintArray(CopyArrayInReverseOrder, ArrLength, "Copy Array In Reverse Order");
+	//cout << "AvarageArray: " << AvarageArray(Array, ArrLength) << endl;
 	cout << "########################################################\n";
 	cout << "########################################################\n";
 	return 0;
