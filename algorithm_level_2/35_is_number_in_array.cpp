@@ -33,19 +33,6 @@ void PrintArray(int Array[100], short Num) {
 	}
 	cout << endl;
 }
-void PrintResultSearchNumInArr(int NumSearch, int position) {
-	if (position != -1) {
-		cout << "Number you are looking for is: \t" << NumSearch << endl;
-		cout << "The number found at position: \t" << position << endl;
-		cout << "The number found its order: \t" << position + 1 << endl;
-
-	}
-	else {
-		cout << "Number you are looking for is: " << NumSearch << endl;
-		cout << "The number is not found:-(" << position << endl;
-
-	}
-}
 short SearchNumInArray(int Array[100], short ArrLength, int NumSearch) {
 	for (int i = 0; i < ArrLength; i++)
 	{
@@ -54,6 +41,21 @@ short SearchNumInArray(int Array[100], short ArrLength, int NumSearch) {
 		}
 	}
 	return  -1;//not found
+}
+bool IsNumberInArray(int Array[100], short ArrLength, int NumSearch) {
+	return SearchNumInArray(Array, ArrLength, NumSearch) != -1;
+}
+void PrintResultSearchNumInArr(int NumSearch, bool IsFound) {
+	if (IsFound) {
+		cout << "Number you are looking for is: " << NumSearch << endl;
+		cout << "The number is not found:-)" << endl;
+
+	}
+	else {
+		cout << "Number you are looking for is: " << NumSearch << endl;
+		cout << "The number is not found:-(" << endl;
+
+	}
 }
 int main() {
 	cout << "########################################################\n";
@@ -68,7 +70,7 @@ int main() {
 	PrintArray(Array, ArrLength);
 	cout << "============================================" << endl;
 	int NumSearch = ReadPositiveNumber("ENTER A NUMBER TO SEARCH FOR?\n");
-	PrintResultSearchNumInArr(NumSearch, SearchNumInArray(Array, ArrLength, NumSearch));
+	PrintResultSearchNumInArr(NumSearch, IsNumberInArray(Array, ArrLength, NumSearch));
 	cout << "########################################################\n";
 	cout << "########################################################\n";
 	return 0;

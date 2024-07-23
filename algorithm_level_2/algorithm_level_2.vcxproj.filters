@@ -117,7 +117,10 @@
     <ClCompile Include="33_generate_array_keys.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="34_.cpp">
+    <ClCompile Include="34_search_num_in_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="35_is_number_in_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
