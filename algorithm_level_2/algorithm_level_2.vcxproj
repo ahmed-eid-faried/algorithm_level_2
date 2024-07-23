@@ -164,7 +164,8 @@
     <ClCompile Include="41check_array_is_palindrome.cpp" />
     <ClCompile Include="42_count_odd_num_in_array.cpp" />
     <ClCompile Include="43count_even_numbers_in_array.cpp" />
-    <ClCompile Include="44_.cpp" />
+    <ClCompile Include="44_count_positive_numbers_in_array.cpp" />
+    <ClCompile Include="45count_negative_numbers_in_array.cpp" />
     <ClCompile Include="4_print_all_prefect_numbers_from1to_n.cpp" />
     <ClCompile Include="5_check_digits_of_number_soln1.cpp" />
     <ClCompile Include="5_check_digits_of_number_soln2.cpp" />
