@@ -159,5 +159,8 @@
     <ClCompile Include="47_my_floor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="48_my_ceil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
