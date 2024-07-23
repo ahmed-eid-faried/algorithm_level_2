@@ -144,7 +144,10 @@
     <ClCompile Include="42_count_odd_num_in_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="43.cpp">
+    <ClCompile Include="43count_even_numbers_in_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="44_.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
