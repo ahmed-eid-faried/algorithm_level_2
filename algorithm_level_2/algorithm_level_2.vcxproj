@@ -161,7 +161,8 @@
     <ClCompile Include="39_copy_prime_numbers_in_array_by_add_element.cpp" />
     <ClCompile Include="3_perfect_number.cpp" />
     <ClCompile Include="40_copy_distinct_num_in_array.cpp" />
-    <ClCompile Include="41.cpp" />
+    <ClCompile Include="41check_array_is_palindrome.cpp" />
+    <ClCompile Include="42_count_odd_num_in_array.cpp" />
     <ClCompile Include="4_print_all_prefect_numbers_from1to_n.cpp" />
     <ClCompile Include="5_check_digits_of_number_soln1.cpp" />
     <ClCompile Include="5_check_digits_of_number_soln2.cpp" />

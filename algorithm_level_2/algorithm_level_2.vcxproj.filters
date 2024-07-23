@@ -138,7 +138,10 @@
     <ClCompile Include="40_copy_distinct_num_in_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="41.cpp">
+    <ClCompile Include="41check_array_is_palindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="42_count_odd_num_in_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
