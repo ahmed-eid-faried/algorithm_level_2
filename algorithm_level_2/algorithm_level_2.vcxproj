@@ -153,6 +153,7 @@
     <ClCompile Include="31_shuffle_array.cpp" />
     <ClCompile Include="32_28_copy_array_in_reverse.cpp" />
     <ClCompile Include="33_generate_array_keys.cpp" />
+    <ClCompile Include="34_.cpp" />
     <ClCompile Include="3_perfect_number.cpp" />
     <ClCompile Include="4_print_all_prefect_numbers_from1to_n.cpp" />
     <ClCompile Include="5_check_digits_of_number_soln1.cpp" />
