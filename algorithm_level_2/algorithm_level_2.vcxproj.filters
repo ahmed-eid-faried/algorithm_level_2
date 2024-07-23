@@ -144,5 +144,8 @@
     <ClCompile Include="42_count_odd_num_in_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="43.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
