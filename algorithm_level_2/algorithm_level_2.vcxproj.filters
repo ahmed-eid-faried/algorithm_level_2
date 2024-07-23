@@ -129,5 +129,8 @@
     <ClCompile Include="37_copy_array_by_add_element_simi_dynamic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="38_copy_odd_numbers_in_array_by_add_element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
