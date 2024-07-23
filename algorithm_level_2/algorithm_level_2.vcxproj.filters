@@ -135,7 +135,10 @@
     <ClCompile Include="39_copy_prime_numbers_in_array_by_add_element.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="40.cpp">
+    <ClCompile Include="40_copy_distinct_num_in_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="41.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
