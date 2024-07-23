@@ -2,7 +2,7 @@
 //#include <string>
 //using namespace std;
 //int RandomNumber(int From, int To) {
-//	return (rand() % (To - From)) + From;
+//	return (rand() % (To - From+1)) + From;
 //}
 //int main() {
 //	cout << "########################################################\n";

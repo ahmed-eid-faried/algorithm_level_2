@@ -13,7 +13,7 @@
 //}
 //
 //int RandomNumber(int From, int To) {
-//	return (rand() % (To - From)) + From;
+//	return (rand() % (To - From+1)) + From;
 //}
 //
 //void PrintArray(int Array[100], short Num, string Message = "Original Array") {

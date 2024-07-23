@@ -114,5 +114,8 @@
     <ClCompile Include="32_28_copy_array_in_reverse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="33_generate_array_keys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
